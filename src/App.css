@@ -1,0 +1,74 @@
+
+
+.App{
+  text-align: center;
+
+}
+
+.App-header{
+  display: flex;
+  background-color: brown;
+  flex-direction: column;
+  color: white;
+  display: flex; 
+  min-height: 100vh;  
+  align-items: center;
+  padding: 20px;
+  
+}
+
+
+input{ 
+  width: 350px;
+  padding: 10px;
+  font-size: large;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  margin-top: 20px;
+  
+}
+button{
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  background-color: black;
+  border-radius: 130px;
+  margin-left: 20px;
+
+}
+
+.allTodos{ 
+  list-style: none;
+  margin-top: 10px;
+  padding: 5px;
+  align-items: left;
+  justify-content: space-between;
+  
+}
+
+.singleTodo{
+  
+  align-items: left;
+  /* justify-content: space-between; */
+  list-style: none;
+  
+
+}
+
+@media(max-width : 768px) {
+  .App-header{
+    background-color: black;
+  }
+  input{
+    width: 200px;
+    padding: 5px;
+  }
+  button{
+    font-size: 10px;
+    background-color: white;
+    color: black;
+    margin-left: 5px;
+    font-weight: 600;
+  }
+  
+}
